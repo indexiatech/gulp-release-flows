@@ -24,18 +24,21 @@ Create a `gulpfile.js` in your project with:
 // add to gulpfile.js
 var gulp = require('gulp');
 // pass along gulp reference to have tasks imported
-require('../')(gulp);
+require('gulp-release-flows')(gulp);
 ```
 
-In command line, run:
+To see all imported tasks, run:
 
-`gulpfile build:release`
+`gulp -T`
 
+To release, run:
+
+`gulp build:release`
 
 This will bump the `patch` version, minor / major can be bumped by the following command:
 
-`gulpfile build:release --bump minor`
+`gulp build:release --bump minor`
 
 Or
 
-`gulpfile build:release --bump major`
+`gulp build:release --bump major`
