@@ -1,0 +1,39 @@
+{
+  "name": "gulp-release-flows",
+  "version": "0.1.0",
+  "description": "Gulp Release Flows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indexiatech/gulp-release-flows.git"
+  },
+  "keywords": [
+    "gulp",
+    "tasks",
+    "plugin",
+    "semver",
+    "release",
+    "git",
+    "ci"
+  ],
+  "author": "Indexia Technologies, ltd.",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/indexiatech/gulp-release-flows/issues"
+  },
+  "homepage": "https://github.com/indexiatech/gulp-release-flows#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-bump": "^2.1.0",
+    "gulp-conventional-changelog": "^1.1.0",
+    "gulp-git": "^1.7.2",
+    "gulp-util": "^3.0.7",
+    "minimist": "^1.2.0",
+    "run-sequence": "^1.2.1"
+  }
+}
